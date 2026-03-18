@@ -1,0 +1,35 @@
+name: pomotomo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  window_manager: ^0.4.3
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_windows_video: ^1.0.10
+  provider: ^6.1.2
+  flex_color_picker: ^3.6.0
+  file_picker: ^8.1.6
+  shared_preferences: ^2.3.4
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  windows:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
